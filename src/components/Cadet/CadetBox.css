@@ -1,0 +1,10 @@
+.CadetBox {
+    background-color: cadetblue;
+    width: 33%;
+    height: 200px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    user-select: none;
+    line-height: 200px;
+}
