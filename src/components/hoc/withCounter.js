@@ -13,7 +13,7 @@ const withCounter = (MainComponent) => {
         }
         render() {
             return (
-                <MainComponent name={this.props.name} counter={this.state.counter} incCounter={this.state.incCounter} />
+                <MainComponent name={this.props.name} counter={this.state.counter} incCounter={this.incCounter} />
 
             )
         }
